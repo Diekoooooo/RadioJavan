@@ -19,11 +19,11 @@ def download_rj(music_url):
         pass
     
     return False
-print(3*'@python3_channel\n')
+print(3*'Dieko-Mmd')
 media_link = input("Enter music url: ")
 
 download_music = download_rj(media_link)
 if download_music:
-    print("Download is successfully, Music was downloaded:", download_music[0])
+    print("Download is successfully, Music was downloaded(:", download_music[0])
 else:
-    print("Couldn't download music!")
+    print("):")
